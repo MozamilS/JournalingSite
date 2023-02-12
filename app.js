@@ -138,5 +138,6 @@ app.get("/posts/:Paramaribo", function(req,res){
 
 
 app.listen(process.env.PORT || 3000, function() {
-  console.log("Server started on port 3000");
+  console.log("Journling App initiated");
+  console.log(process.env.PORT || 3000)
 });
