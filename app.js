@@ -7,7 +7,7 @@ const _ = require("lodash");
 
 const mongoose = require("mongoose");
 
-url = "mongodb+srv://MozamilS:Nahbus%40123@cluster0.jui5z.mongodb.net/BlogDB"
+url = "mongodb+srv://MozamilS:Nahbus%40123@cluster0.jui5z.mongodb.net/BlogDB2"
 
 mongoose.connect(url, {useNewURLParser:true}, function(err){
   if (err){
